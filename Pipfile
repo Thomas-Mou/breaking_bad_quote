@@ -9,8 +9,10 @@ flask-testing = "*"
 nose = "*"
 requests = "*"
 
-
 [dev-packages]
+flask = "*"
+requests = "*"
+flask-testing = "*"
 
 [requires]
 python_version = "3.8"
