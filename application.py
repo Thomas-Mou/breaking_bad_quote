@@ -9,6 +9,9 @@ app = Flask(__name__)
 def index():
     return "<h1> Welcome to the home page </h1>"
 
+@app.route("/toto")
+def index():
+    return "<h1> TOTO </h1>"
 
 #quote endpoint
 @app.route("/quote")
